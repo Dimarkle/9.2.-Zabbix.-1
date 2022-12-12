@@ -3,6 +3,9 @@
 
 # Задание 1
 
+Уставливаем PostgreSQL
+
+sudo apt install postgresql
 
 
 # Задание 2
