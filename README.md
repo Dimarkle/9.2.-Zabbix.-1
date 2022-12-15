@@ -38,10 +38,35 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 # Задание 2
 
+Использовал следующие команды
+
+ Установил репозиторий Zabbix
+ 
+wget https://repo.zabbix.com/zabbix/6.2/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.2-4%2Bubuntu22.04_all.deb
+dpkg -i zabbix-release_6.2-4+ubuntu22.04_all.deb
+apt update
+
+Установил Zabbix агент
+
+apt install zabbix-agent
+
+Перезапуск
+systemctl restart zabbix-agent и systemctl enable zabbix-agent
+
+![download](https://user-images.githubusercontent.com/118626944/207966826-6931d173-c55a-46ba-bd45-c6f3d1e2d4c0.png)
+
+![Без имени2](https://user-images.githubusercontent.com/118626944/207967204-d61148e9-f223-4579-bacf-a4eca7b17b73.jpg)
+
+
+![Без имени 3jpg](https://user-images.githubusercontent.com/118626944/207967215-58487ed3-69d5-4a89-b250-3e860a26b85e.jpg)
+
+![Без имени4](https://user-images.githubusercontent.com/118626944/207967229-531bf502-0b08-4237-9777-a48329cd9ee8.jpg)
+
+
+![Без имени5](https://user-images.githubusercontent.com/118626944/207967240-0abb330e-db53-47a5-8834-49b08b919d9a.jpg)
+
+![Без имени6](https://user-images.githubusercontent.com/118626944/207967269-b7a70390-513e-42be-9489-874cc29e29bc.jpg)
 
 
 
 
-
-
-# Задание 3
